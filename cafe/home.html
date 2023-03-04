@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Navbar</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="homestyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/44f156f516.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <a class="logo" href="#"><img src="logo.png" alt="logo" height="50px"></a>
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#port">Drinks</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="#contact">Contact</a>
+            <p class="menu cta">Menu</p>
+        </header>
+        <div class="overlay">
+            <a class="close">&times;</a>
+            <div class="overlay__content">
+                <a href="#">Services</a>
+                <a href="#">Drinks</a>
+                <a href="#">About</a>
+            </div>
+        </div>
+        <script type="text/javascript" src="home.js"></script>
+        <div class="fbody">
+            <h1>Welcome to <span>Anteiku</span></h1>
+            <p>
+                This is a cafe for you to drink.<br>
+                THIS IS A NORMAL CAFE.
+            </p>
+            
+        </div>
+        <div class="col-1">
+       <div class="images">
+        <img src="me.jpeg" class="me">
+        </div>
+       </div>
+        </div>
+        <!-- ------------body--------- -->
+        <!--------------- ABOUT ---------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-1">
+                        <img src="interior.jpeg">
+                    </div>
+                    <div class="col-2">
+                        <h1 class="sub_title">About Us</h1>
+                        <p>
+                           Anteiku is a cafe located in Silent Hill. We serve to erryone that hungry or thirsty or literally anyone.
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Workers')">Workers</p>
+                            <p class="tab-links" onclick="opentab('Awards')">Awards</p>
+                            <p class="tab-links" onclick="opentab('History')">History</p>
+                        </div> 
+                        <div class="tab-contents active-tab" id="Workers">
+                            <ul>
+                                <li><span>kaneki</span><br>World's best beans grinder</li>
+                                <li><span>Nishigimi</span><br>World's best quality checker</li>
+                                <li><span>Rahul</span><br>average dude</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Awards">
+                            <ul>
+                                <li><span>WWE</span><br>World Wide Entertainment award 2023</li>
+                                <li><span>UFC</span><br>Ultimate Food cafe award 2022</li>
+                                <li><span>NFL</span><br>New Food leader award 2023</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="History">
+                            <ul>
+                                <li><span>Establishment</span><br>Founded in 1998 BC.(Before colors).We served when the world was still black and white.</li>
+                                <li><span>Founder</span><br>Lebron james.</li>
+                                <li><span>Helped WW1</span><br>We promoted WW1</li>
+                            </ul>
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------SERVICES--------------->
+        <div id="service">
+             <div class="container">
+                <h1 class="sub_title">Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h2>Online</h2>
+                        <p>You can reserve a seat online</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-user"></i>
+                        <h2>Training</h2>
+                        <p>We provide training to some people each year so be on the lookout</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-java"></i>
+                        <h2>Best coffee</h2>
+                        <p>Its obvious we serve the best coffee</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+             </div>
+        </div>
+        <!-- ---------Portfolio --------------------->
+        <div id="port">
+            <div class="container">
+                <h1 class="sub_title">Drinks</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="americano.jpg" alt="americano"> 
+                        <div class="layer">
+                            <h3>
+                               Americano
+                            </h3>
+                            <p>
+                                $20
+                            </p>
+                            <a href="#"><i class="fa-solid fa-mug-saucer"></i></a>
+                        </div>   
+                    </div>
+                    <div class="work">
+                        <img src="latte.jpg" alt="latte">   
+                        <div class="layer">
+                            <h3>
+                               Latte
+                            </h3>
+                            <p>
+                                $15
+                            </p>
+                            <a href="#"><i class="fa-solid fa-mug-hot"></i></a>
+                        </div>    
+                    </div>
+                    <div class="work">
+                        <img src="macchiato.jpg" alt="macchiato">   
+                        <div class="layer">
+                            <h3>
+                                Macchiato
+                            </h3>
+                            <p>
+                               $30
+                            </p>
+                            <a href="#"><i class="fa-solid fa-whiskey-glass"></i></a>
+                        </div>    
+                    </div>
+                </div>
+                <!-- <a href="https://github.com/birat54"class="more"> My github</a> -->
+            </div>
+        </div>
+        <!---------------- CONTACT ------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub_title">
+                            Contact Us
+                        </h1>
+                        <p>
+                            <i class="fa-sharp fa-solid fa-envelope"></i>cafe@gmail.com
+                        </p>
+                        <p><i class="fa-solid fa-phone-volume"></i></i>9864831481</p>
+                        <!-- <div class="social-icons">
+                            <a href="https://instagram.com/biratggg?igshid=ZmZhODViOGI="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/birat-giri-7b228025a/"><i class="fa-brands fa-linkedin"></i></i></a>
+                        </div> -->
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Quandanle Dingle" required>
+                            <input type="email" name="email" placeholder="Dingle@gmail.com" required>
+                            <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                            <button type="submit" class="more2">
+                                submit
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p><i class="fa-solid fa-copyright"></i>copyright@2022</p>
+            </div>
+        </div>
+       <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+       </script>
+    </body>
+</html>
